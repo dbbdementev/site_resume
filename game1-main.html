@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Главная страница игр</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Animated Circular Portfolio with jQuery" />
+        <meta name="keywords" content="jquery, animate, circle, round, portfolio, design, tutorial"/>
+        <link rel="stylesheet" href="styles/games/main.css" type="text/css" media="screen"/>
+        <style>
+         rect {
+          fill: none;
+          pointer-events: all;
+        }
+        circle {
+          fill: none;
+          stroke-width: 2.5px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div class="title"></div>
+            <a class="back" href="#"></a>
+            <div class="wrapper">
+                <div id="images" class="images">
+                    <img id="image_about" src="img/games/1.jpg" alt="" width="402" height="402" style="display:block;"class="round"/>
+                    <img id="image_portfolio" src="img/games/2.jpg" alt="" width="402" height="402"/>
+                    <img id="image_contact" src="img/games/3.jpg" alt="" width="402" height="402" />
+                </div>
+                <div class="circleBig">
+                    <div id="menu" class="menu">
+                        <a id="about" href="">Игра</a><br>
+                        <a id="portfolio" href="">Фотографии</a><br>
+                        <a id="contact" href="">Контакты</a>
+                    </div>
+                </div>
+            </div>
+            <div id="circle_about" class="circle">
+                <div class="description">
+                    <ul>
+                        <li><a href="game1.html?count=400&point_size=1&point_size=50&window_size=50&time_step=-50&x_radius=50&y_radius=-50&x_angle=50&colour_shift=50&colour_step=50&saturation=100&lightness=70&transparency=100">Пример 1</a></li>
+                        <li><a href="game1.html?count=700&point_size=1&point_size=50&window_size=50&time_step=100&x_radius=0&y_radius=100&x_angle=0&colour_shift=50&colour_step=50&saturation=100&lightness=70&transparency=100">Пример 2</a></li>
+                        <li><a href="game1.html?count=1000&point_size=2&point_size=50&window_size=50&time_step=0&x_radius=0&y_radius=0&x_angle=0&colour_shift=50&colour_step=50&saturation=100&lightness=70&transparency=100">Пример 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="circle_portfolio" class="circle">
+                <div class="description">
+                    <div class="thumbs">
+                        <a href="img/thumbs/1.png"><img width = "25" height = "20" src="img/thumbs/1.png" alt=""/></a>
+                        <a href="img/thumbs/2.png"><img width = "25" height = "20" src="img/thumbs/2.png" alt=""/></a>
+                        <a href="img/thumbs/3.png"><img width = "25" height = "20" src="img/thumbs/3.png" alt=""/></a>
+                        <a href="img/thumbs/4.png"><img width = "25" height = "20" src="img/thumbs/4.png" alt=""/></a>
+                        <a href="img/thumbs/5.png"><img width = "25" height = "20" src="img/thumbs/5.png" alt=""/></a>
+                        <a href="img/thumbs/6.png"><img width = "25" height = "20" src="img/thumbs/6.png" alt=""/></a>
+                        <a href="img/thumbs/7.png"><img width = "25" height = "20" src="img/thumbs/7.png" alt=""/></a>
+                        <a href="img/thumbs/8.png"><img width = "25" height = "20" src="img/thumbs/8.png" alt=""/></a>
+                        <a href="img/thumbs/9.png"><img width = "25" height = "20" src="img/thumbs/9.png" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div id="circle_contact" class="circle">
+                <div class="description">
+                    <ul>
+                        <li><a href="https://vk.com/dbbdementev">Вконтакте</a></li>
+                        <li><a href="http://vladimir-d.ru">vladimir-d.ru</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p align="center" id="descriptions">Мир интернета динамичен и полон движения.
+            Эффекты анимации позволяют привлечь внимание пользователей.
+            Обычно для анимации используют графические обьекты - изображения в формате gif,
+            которые сменяет друг друга с определенной частотой, часто по циклу.
+            В результате получается эффект движения.
+            На этом сайте, вы найдете прекрасные  эффекты, с разнообразными возможностями, написанные с помощью JS скриптов.
+            Все скрипты можно сразу посмотреть и изменить различные параметры ( цвет, скорость, количество точек и многое др. ) .
+        </p>
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+        <script type="text/javascript" src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/games/city.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/games/jquery.path.js"></script>
+        <script type="text/javascript" src="js/games/main_circle.js"></script>
+        <script type="text/javascript" src="js/games/d3.v3.min.js"></script>
+        <script type="text/javascript" src="js/games/circle.js"></script>
+        <div id="footer">
+            <div>
+                <div id="user-city"></div>
+            </div>
+        </div>
+    </body>
+</html>

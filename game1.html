@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Games 1</title>
+        <link href="css/games/game.css" rel="stylesheet" type="text/css" />
+        <link href="css/games/color-picker.min.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" src="js/yandex_metrica.js"></script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/43995089" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </head>
+    <body>
+        <div id="container">
+            <div>Цвет фона:
+                <input type="button" id="background_colour" value="#000000"><br><hr><br>
+            </div>
+            <div>
+                <input type="button" id="button_start" value="Запуск" />
+                <input type="button" id="button_reset" value="Сбросить"/>
+                <br><hr><br>
+            </div>
+            <div>Количество точек:
+                <div id="count-result"></div>
+                <div class="count">
+                    <input type="hidden" id="count"/>
+                </div><br>
+            </div>
+            <div>Размер одной точки:
+                <div id="point_size-result"></div>
+                <div class="point_size">
+                    <input type="hidden" id="point_size"/>
+                </div><br>
+            </div>
+            <div>Скорость:
+                <div id="time_step-result"></div>
+                <div class="time_step">
+                    <input type="hidden" id="time_step"/>
+                </div><br>
+            </div>
+            <div>Радиус активной области:
+                <div id="window_size-result"></div>
+                <div class="window_size">
+                    <input type="hidden" id="window_size"/>
+                </div><br>
+            </div>
+            <div>Коэффициент изменения радиуса по оси X:
+                <div id="x_radius-result"></div>
+                <div class="x_radius">
+                    <input type="hidden" id="x_radius"/>
+                </div><br>
+            </div>
+            <div>Коэффициент изменения радиуса по оси Y:
+                <div id="y_radius-result"></div>
+                <div class="y_radius">
+                    <input type="hidden" id="y_radius"/>
+                </div><br>
+            </div>
+            <div>Коэффициент скорости изменения угла по оси X:
+                <div id="x_angle-result"></div>
+                <div class="x_angle">
+                    <input type="hidden" id="x_angle"/>
+                </div><br>
+            </div>
+            <div>Коэффициент скорости изменения угла по оси Y:
+                <div id="y_angle-result"></div>
+                <div class="y_angle">
+                    <input type="hidden" id="y_angle" />
+                </div><br>
+            </div>
+              <br><hr><br>
+            <div>Сдвиг начальной точки радуги цветов:
+                <div id="colour_shift-result"></div>
+                <div class="colour_shift">
+                    <input type="hidden" id="colour_shift"/>
+                </div><br>
+            </div>
+            <div>Cкорости изменения цвета от точки к точке:
+                <div id="colour_step-result"></div>
+                <div class="colour_step">
+                    <input type="hidden" id="colour_step"/>
+                </div><br>
+            </div>
+            <div>Насыщенность цвета:
+                <div id="saturation-result"></div>
+                <div class="saturation">
+                    <input type="hidden" id="saturation"/>
+                </div><br>
+            </div>
+            <div>Яркость:
+                <div id="lightness-result"></div>
+                <div class="lightness">
+                    <input type="hidden" id="lightness"/>
+                </div><br>
+            </div>
+            <div>Прозрачность:
+                <div id="transparency-result"></div>
+                <div class="transparency">
+                    <input type="hidden" id="transparency"/>
+                </div><br>
+            </div><br><hr><br>
+            <!-- Yandex.Metrika informer -->
+            <a href="https://metrika.yandex.ru/stat/?id=43995089&amp;from=informer"
+            target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/43995089/1_0_22A8F1FF_0288D1FF_1_pageviews"
+            style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" /></a>
+            <!-- /Yandex.Metrika informer -->
+        </div>
+        <form name="theForm"></form>
+        <canvas id="canvas"></canvas>
+        <script src="js/games/game1.js"></script>
+        <script src="js/games/game1_style.js"></script>
+        <script src="js/games/background-color.js"></script>
+        <script >meaning("theForm");</script>
+        <script src="js/games/color-picker.min.js"></script>
+        <script src="js/games/background-color.js"></script>
+    </body>
+</html>

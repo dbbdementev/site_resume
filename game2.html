@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Games 2</title>
+        <link href="css/games/game.css" rel="stylesheet" type="text/css" />
+        <link href="css/games/color-picker.min.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" src="js/yandex_metrica.js"></script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/43995089" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </head>
+    <body>
+        <div id="container">
+            <div>Цвет фона:
+                <input type="button" id="background_colour" value="#000000"><br><hr><br>
+            </div>
+            <div>
+                <input type="button" id="button_start" value="Запуск" />
+                <input type="button" id="button_reset" value="Сбросить"/>
+                <br><hr><br>
+            </div>
+            <div>Количество фигур:
+                <div id="count-result"></div>
+                <div class="count">
+                    <input type="hidden" id="count"/>
+                </div><br>
+            </div>
+            <div>Ширина линии:
+                <div id="line_width-result"></div>
+                <div class="line_width">
+                    <input type="hidden" id="line_width"/>
+                </div><br>
+            </div>
+            <div>Радиус закругления углов:
+                <div id="radius-result"></div>
+                <div class="radius">
+                    <input type="hidden" id="radius"/>
+                </div><br>
+            </div>
+
+            <div>Скорость изменения цвета:
+                <div id="time_color-result"></div>
+                <div class="time_color">
+                    <input type="hidden" id="time_color"/>
+                </div><br>
+            </div>
+            <br><hr><br>
+            <!-- Yandex.Metrika informer -->
+            <a href="https://metrika.yandex.ru/stat/?id=43995089&amp;from=informer"
+            target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/43995089/1_0_22A8F1FF_0288D1FF_1_pageviews"
+            style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" /></a>
+            <!-- /Yandex.Metrika informer -->
+        </div>
+        <form name="theForm"></form>
+        <canvas id="canvas2"></canvas>
+        <script src="js/games/game2.js"></script>
+        <script src="js/games/game2_style.js"></script>
+        <script src="js/games/background-color.js"></script>
+        <script >meaning("theForm");</script>
+        <script src="js/games/color-picker.min.js"></script>
+        <script src="js/games/background-color.js"></script>
+    </body>
+</html>

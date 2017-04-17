@@ -1,0 +1,19 @@
+User-agent: Yandex
+Disallow: /js
+Disallow: /css
+Disallow: /images
+Disallow: /fonts
+Host: www.vladimir-d.ru
+
+User-agent: Googlebot
+Disallow: /js
+Disallow: /css
+Disallow: /images
+Disallow: /fonts
+Host: www.vladimir-d.ru
+
+User-agent: *
+Disallow: /js
+Disallow: /css
+Disallow: /images
+Disallow: /fonts

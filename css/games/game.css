@@ -1,0 +1,100 @@
+body {
+    margin:0px;
+	background-color:#FFF;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4682B4;
+	background:url('../../images/games/background.png');
+}
+#header{
+    background-color:#FFFF99;
+    border-bottom: #FFFF66 3px solid;
+}
+.clear{
+    clear:both;
+}
+#footer{
+    border-top:3px #CCCCCC solid;
+    background-color:#efefef;
+    padding:10px 10px 10px 20px;
+}
+#container{
+    padding:20px;
+}
+#noscript{
+	background-color:#F90;
+	padding:10px;
+	font-size:12px;
+	color:#fff;
+	border-bottom:#F60 1px solid;
+}
+#container{
+    width:12%;
+    float:left;
+    height:avto
+}
+.count,.window_size, .x_radius, .y_radius ,.point_size ,.time_step,.x_angle,.y_angle,.colour_shift,.colour_step,
+.saturation,.lightness,.transparency,.time_color,.radius,.line_width{
+    width:avto;
+    height:4px;
+    background:url('../../images/games/slider-bg.png');
+    position:relative;
+    margin:0;
+    padding:0 5px;
+}
+.ui-slider-handle {
+    width:15px;
+    height:15px;
+    position:absolute;
+    top:-5px;
+    margin-left:-6px;
+    z-index:200;
+    background:url('../../images/games/slider-button.png');
+    background-size: 15px 15px;
+}
+#count-result , #window_size-result, #x_radius-result, #y_radius-result, #point_size-result,#time_step-result,
+#x_angle-result,#y_angle-result,#colour_shift-result,#colour_step-result,#saturation-result,#lightness-result,
+#transparency-result,#time_color-result,#radius-result,#line_width-result{
+    font-size:15px;
+    height:avto;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    width:15%;
+    text-shadow:0 1px 1px #000;
+    font-weight:700;
+    padding:3px;
+}
+.ui-widget-header {
+    background:url('../../images/games/fill.png') no-repeat left;
+    height:5px;
+    left:1px;
+    top:0px;
+    position:absolute;
+}
+a {
+    outline:none;
+    -moz-outline-style:none;
+}
+#canvas {
+    position:absolute;
+    float:left;
+    width:85%;
+    height:100%;
+    position: fixed;
+}
+#canvas2 {
+position:absolute;
+    float:left;
+    width:85%;
+    height:100%;
+    position: fixed;
+}
+.color-picker-box {
+      display:block;
+      border-top:1px solid;
+      border-color:inherit;
+      float:left;
+      width:10%;
+      height:16px;
+      cursor:pointer;
+}
